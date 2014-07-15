@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0FB2BD61975270C00A4752D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FB2BD51975270C00A4752D /* AppDelegate.swift */; };
+		A0FB2BD81975270C00A4752D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A0FB2BD71975270C00A4752D /* GameScene.sks */; };
+		A0FB2BDA1975270C00A4752D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FB2BD91975270C00A4752D /* GameScene.swift */; };
+		A0FB2BDC1975270C00A4752D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FB2BDB1975270C00A4752D /* GameViewController.swift */; };
+		A0FB2BDF1975270C00A4752D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0FB2BDD1975270C00A4752D /* Main.storyboard */; };
+		A0FB2BE11975270C00A4752D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0FB2BE01975270C00A4752D /* Images.xcassets */; };
+		A0FB2BED1975270C00A4752D /* KapiteinSchuimbaardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FB2BEC1975270C00A4752D /* KapiteinSchuimbaardTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0FB2BE71975270C00A4752D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0FB2BC81975270C00A4752D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0FB2BCF1975270C00A4752D;
+			remoteInfo = KapiteinSchuimbaard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0FB2BD01975270C00A4752D /* KapiteinSchuimbaard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KapiteinSchuimbaard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0FB2BD41975270C00A4752D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0FB2BD51975270C00A4752D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0FB2BD71975270C00A4752D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A0FB2BD91975270C00A4752D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A0FB2BDB1975270C00A4752D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A0FB2BDE1975270C00A4752D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0FB2BE01975270C00A4752D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0FB2BE61975270C00A4752D /* KapiteinSchuimbaardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KapiteinSchuimbaardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0FB2BEB1975270C00A4752D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0FB2BEC1975270C00A4752D /* KapiteinSchuimbaardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KapiteinSchuimbaardTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0FB2BCD1975270C00A4752D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FB2BE31975270C00A4752D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0FB2BC71975270C00A4752D = {
+			isa = PBXGroup;
+			children = (
+				A0FB2BD21975270C00A4752D /* KapiteinSchuimbaard */,
+				A0FB2BE91975270C00A4752D /* KapiteinSchuimbaardTests */,
+				A0FB2BD11975270C00A4752D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0FB2BD11975270C00A4752D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0FB2BD01975270C00A4752D /* KapiteinSchuimbaard.app */,
+				A0FB2BE61975270C00A4752D /* KapiteinSchuimbaardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0FB2BD21975270C00A4752D /* KapiteinSchuimbaard */ = {
+			isa = PBXGroup;
+			children = (
+				A0FB2BD51975270C00A4752D /* AppDelegate.swift */,
+				A0FB2BD71975270C00A4752D /* GameScene.sks */,
+				A0FB2BD91975270C00A4752D /* GameScene.swift */,
+				A0FB2BDB1975270C00A4752D /* GameViewController.swift */,
+				A0FB2BDD1975270C00A4752D /* Main.storyboard */,
+				A0FB2BE01975270C00A4752D /* Images.xcassets */,
+				A0FB2BD31975270C00A4752D /* Supporting Files */,
+			);
+			path = KapiteinSchuimbaard;
+			sourceTree = "<group>";
+		};
+		A0FB2BD31975270C00A4752D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0FB2BD41975270C00A4752D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0FB2BE91975270C00A4752D /* KapiteinSchuimbaardTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0FB2BEC1975270C00A4752D /* KapiteinSchuimbaardTests.swift */,
+				A0FB2BEA1975270C00A4752D /* Supporting Files */,
+			);
+			path = KapiteinSchuimbaardTests;
+			sourceTree = "<group>";
+		};
+		A0FB2BEA1975270C00A4752D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0FB2BEB1975270C00A4752D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0FB2BCF1975270C00A4752D /* KapiteinSchuimbaard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0FB2BF01975270C00A4752D /* Build configuration list for PBXNativeTarget "KapiteinSchuimbaard" */;
+			buildPhases = (
+				A0FB2BCC1975270C00A4752D /* Sources */,
+				A0FB2BCD1975270C00A4752D /* Frameworks */,
+				A0FB2BCE1975270C00A4752D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KapiteinSchuimbaard;
+			productName = KapiteinSchuimbaard;
+			productReference = A0FB2BD01975270C00A4752D /* KapiteinSchuimbaard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0FB2BE51975270C00A4752D /* KapiteinSchuimbaardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0FB2BF31975270C00A4752D /* Build configuration list for PBXNativeTarget "KapiteinSchuimbaardTests" */;
+			buildPhases = (
+				A0FB2BE21975270C00A4752D /* Sources */,
+				A0FB2BE31975270C00A4752D /* Frameworks */,
+				A0FB2BE41975270C00A4752D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0FB2BE81975270C00A4752D /* PBXTargetDependency */,
+			);
+			name = KapiteinSchuimbaardTests;
+			productName = KapiteinSchuimbaardTests;
+			productReference = A0FB2BE61975270C00A4752D /* KapiteinSchuimbaardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0FB2BC81975270C00A4752D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "J. Kowsoleea";
+				TargetAttributes = {
+					A0FB2BCF1975270C00A4752D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					A0FB2BE51975270C00A4752D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = A0FB2BCF1975270C00A4752D;
+					};
+				};
+			};
+			buildConfigurationList = A0FB2BCB1975270C00A4752D /* Build configuration list for PBXProject "KapiteinSchuimbaard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0FB2BC71975270C00A4752D;
+			productRefGroup = A0FB2BD11975270C00A4752D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0FB2BCF1975270C00A4752D /* KapiteinSchuimbaard */,
+				A0FB2BE51975270C00A4752D /* KapiteinSchuimbaardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0FB2BCE1975270C00A4752D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FB2BE11975270C00A4752D /* Images.xcassets in Resources */,
+				A0FB2BD81975270C00A4752D /* GameScene.sks in Resources */,
+				A0FB2BDF1975270C00A4752D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FB2BE41975270C00A4752D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0FB2BCC1975270C00A4752D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FB2BDA1975270C00A4752D /* GameScene.swift in Sources */,
+				A0FB2BDC1975270C00A4752D /* GameViewController.swift in Sources */,
+				A0FB2BD61975270C00A4752D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FB2BE21975270C00A4752D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FB2BED1975270C00A4752D /* KapiteinSchuimbaardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0FB2BE81975270C00A4752D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0FB2BCF1975270C00A4752D /* KapiteinSchuimbaard */;
+			targetProxy = A0FB2BE71975270C00A4752D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0FB2BDD1975270C00A4752D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0FB2BDE1975270C00A4752D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0FB2BEE1975270C00A4752D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A0FB2BEF1975270C00A4752D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0FB2BF11975270C00A4752D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = KapiteinSchuimbaard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0FB2BF21975270C00A4752D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = KapiteinSchuimbaard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0FB2BF41975270C00A4752D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KapiteinSchuimbaard.app/KapiteinSchuimbaard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KapiteinSchuimbaardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		A0FB2BF51975270C00A4752D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KapiteinSchuimbaard.app/KapiteinSchuimbaard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KapiteinSchuimbaardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0FB2BCB1975270C00A4752D /* Build configuration list for PBXProject "KapiteinSchuimbaard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FB2BEE1975270C00A4752D /* Debug */,
+				A0FB2BEF1975270C00A4752D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0FB2BF01975270C00A4752D /* Build configuration list for PBXNativeTarget "KapiteinSchuimbaard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FB2BF11975270C00A4752D /* Debug */,
+				A0FB2BF21975270C00A4752D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0FB2BF31975270C00A4752D /* Build configuration list for PBXNativeTarget "KapiteinSchuimbaardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FB2BF41975270C00A4752D /* Debug */,
+				A0FB2BF51975270C00A4752D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0FB2BC81975270C00A4752D /* Project object */;
+}
